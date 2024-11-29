@@ -1,5 +1,6 @@
 
-
+body{height: 850px;
+      width: 850px;}
 div:nth-child(even) div:nth-child(2n+1) {
     background-color: black;
     height: 100px;
@@ -21,4 +22,6 @@ div:nth-child(odd) div:nth-child(2n){
     width: 100px;
 }
 div{ display: flex;
+    border: 5px solid lightgray
+    ;
    }
