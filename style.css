@@ -2,26 +2,30 @@
 body{height: 850px;
       width: 850px;}
 div:nth-child(even) div:nth-child(2n+1) {
+    border: 5px solid lightgray;
     background-color: black;
     height: 100px;
     width: 100px;
     }
 div:nth-child(even) div:nth-child(2n) {
+    border: 5px solid lightgray;
     background-color: white;
     height: 100px;
     width: 100px;
 }
 div:nth-child(odd) div:nth-child(2n+1){
+    border: 5px solid lightgray;
     background-color: white;
     height: 100px;
     width: 100px;
 }
 div:nth-child(odd) div:nth-child(2n){
+    border: 5px solid lightgray;
     background-color: black;
     height: 100px;
     width: 100px;
 }
 div{ display: flex;
-    border: 5px solid lightgray
+    
     ;
    }
